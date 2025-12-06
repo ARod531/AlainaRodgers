@@ -7,14 +7,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e8f8ff;
+    background-color: #e4edf2;
     color: #222;
     line-height: 1.6;
 }
 
 /* --- HEADER --- */
 header {
-    background-color: #00567a;
+    background-color: #92d2f9;
     color: white;
     padding: 20px 40px;
     display: flex;
@@ -33,7 +33,7 @@ header nav a {
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background-color: #4a90e2;
+    background-color: #a8daf9;
     color: white;
 }
 
@@ -50,7 +50,7 @@ header nav a {
     margin-top: 20px;
     padding: 12px 24px;
     background-color: white;
-    color: #4a90e2;
+    color: #a8daf9;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
@@ -74,7 +74,7 @@ header nav a {
 /* --- PROJECTS --- */
 .projects {
     padding: 60px 40px;
-    background-color: #e8f8fe;
+    background-color: #cde2ee;
 }
 
 .project {
