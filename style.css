@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e4edf2;
+    background-color: #e7eff6;
     color: #222;
     line-height: 1.6;
 }
@@ -74,7 +74,7 @@ header nav a {
 /* --- PROJECTS --- */
 .projects {
     padding: 60px 40px;
-    background-color: #cde2ee;
+    background-color: #e7eff6;
 }
 
 .project {
