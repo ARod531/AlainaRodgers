@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Alaina's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-  <img>main/Rodgers</img>
-  <p>Alaina is exceptionally cool — the kind of effortlessly impressive person who brings creativity, confidence, and good vibes to everything she does.</p>
+    <!-- HEADER / NAVBAR -->
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="images/profile.jpg" alt="Profile Photo" class="profile-pic" />
+        <h2>Hello, I'm Your Name.</h2>
+        <p>Aspiring Software Developer | Problem Solver | Learner</p>
+
+        <!-- Resume Download -->
+        <a class="btn" href="files/resume.pdf" download>Download My Résumé</a>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am currently a student at [Your University] studying [Your Major].  
+            I am passionate about software development, problem solving, and building tools that help people.
+            My goal is to continue improving as a developer and gain industry experience.
+        </p>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>Git / GitHub</li>
+            <li>Linux / Bash</li>
+        </ul>
+
+        <h3>Experience</h3>
+        <p>
+            (Optional) Include internships, part-time jobs, or relevant experience here.
+        </p>
+
+        <h3>Professional Links</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Short blurb describing what this project does and why it's interesting.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Another example project with a brief description.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>This Website</h3>
+            <p>The portfolio site you are currently viewing!</p>
+            <a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Your Name</p>
+    </footer>
 
 </body>
 </html>
