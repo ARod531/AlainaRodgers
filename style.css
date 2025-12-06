@@ -14,7 +14,7 @@ body {
 
 /* --- HEADER --- */
 header {
-    background-color: #92d2f9;
+    background-color: #2a4d69;
     color: white;
     padding: 20px 40px;
     display: flex;
@@ -33,7 +33,7 @@ header nav a {
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background-color: #a8daf9;
+    background-color: #4b86b4;
     color: white;
 }
 
@@ -50,7 +50,7 @@ header nav a {
     margin-top: 20px;
     padding: 12px 24px;
     background-color: white;
-    color: #a8daf9;
+    color: #4b86b4;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
@@ -87,7 +87,7 @@ header nav a {
 
 .project a {
     text-decoration: none;
-    color: #4a90e2;
+    color: #4b86b4;
 }
 
 /* --- CONTACT --- */
@@ -105,7 +105,7 @@ header nav a {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #00567a;
+    background-color: #2a4d69;
     color: white;
 }
 
