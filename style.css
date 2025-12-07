@@ -4,6 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    color: #222;          /* default color */
+    
+  }
+
+  a:hover {
+    color: #2a4d69;          /* on hover */
+    text-decoration: underline; /* underline on hover (optional) */
+  }
+
+  a:visited {
+    color: #2a4d69;
+  }
+
+  a:active {
+    color: #2a4d69;
+  }
 
 body {
     font-family: Arial, sans-serif;
@@ -108,20 +125,3 @@ footer {
     background-color: #2a4d69;
     color: white;
 }
-a {
-    color: #222;          /* default color */
-    
-  }
-
-  a:hover {
-    color: #2a4d69;          /* on hover */
-    text-decoration: underline; /* underline on hover (optional) */
-  }
-
-  a:visited {
-    color: #2a4d69;
-  }
-
-  a:active {
-    color: #2a4d69;
-  }
