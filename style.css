@@ -108,4 +108,9 @@ footer {
     background-color: #2a4d69;
     color: white;
 }
-
+a{
+    color: #222
+}
+a:hover {
+  color: #ff6600;   /* when mouse is over link */
+}
