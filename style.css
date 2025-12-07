@@ -99,11 +99,3 @@ header nav a {
     color: #2a4d69;
     text-decoration: none;
 }
-
-/* --- FOOTER --- */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #2a4d69;
-    color: white;
-}
